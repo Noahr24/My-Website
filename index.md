@@ -66,6 +66,4 @@ li a:hover {
       <label for="quit now">Go get a refund bro</label><br><br>
     <input type="submit" value="Submit">
     </form> 
-    
-
 </body>
