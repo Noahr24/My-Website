@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: thistle;
+}
 
-You can use the [editor on GitHub](https://github.com/Noahr24/My-Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+</style>
+<body style="background-color: grey; color: white; font-size: 115%;">
+<h1 style="text-align:center; font-size: 230%;">Noah Rosenbaum</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<img src="/Users/rosebbaumn/Desktop/HTML Shit/me.JPG" alt="Noah" title="This is me" width="400" height="500" style="float: right"/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<ul>
+    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+    <li><a href="https://codingtemple.com/" target="_blank">Coding Temple</a></li>
+    <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+</ul>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<h2 style="text-align: center; background-color: red"><i>Background</i></h2>
 
-- Bulleted
-- List
+<p>Hey everyone, my name is Noah Rosenbaum. I was born and raised in El Paso, Texas. I lived there until high school was over, and then I moved to San Antonio to go to college.
+    <br>Once college ended, I went to nursing school at the University of Texas Health Science Center in San Antonio. However, after a semsester of school, I realized I didn't enjoy it. I withdrew, and have been trying to find what I want to do since then. 
+    <br>I know web development is a great route to go down, so I wanted to try it.
+</p>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<h2 style="text-align: center; background-color: navy;"><i>Hobbies</i></h2>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<p>Some of my hobbies include working out, watching and playing sports, hanging out with friends, and learning new things. My favorite sports are baseball, basketball, and MMA.</p>
+<img src="/Users/rosebbaumn/Desktop/HTML Shit/baseballfield.jpeg" alt="Baseball Field" title="Don't click here, nothing will happen, i promise bro" width="400" height="400" style="float: left;"/>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Noahr24/My-Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<h2 style="text-align: center; background-color: red;"><i>Why?</i></h2>
 
-### Support or Contact
+<p>I wanted to become a developer because it seems like one of the better options for a career in the world we live in today. You can make enough money to live comfortably, job growth is high, and working from home will be nice as well.</p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<h3 style="background-color: navy;">How'd I do?</h3>
+<p><i>Click the best answer</i></p>
+<form>
+      <input type="radio" id="good" name="How'd_I_do?" value="Good">
+      <label for="good">Good</label><br>
+      <input type="radio" id="bad" name="How'd_I_do?" value="Bad">
+      <label for="bad">Could've done better</label><br>
+      <input type="radio" id="quit now" name="How'd_I_do?" value="Really bad">
+      <label for="quit now">Go get a refund bro</label><br><br>
+    <input type="submit" value="Submit">
+    </form> 
+    
+
+</body>
